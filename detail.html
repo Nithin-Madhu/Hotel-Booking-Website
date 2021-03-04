@@ -15,9 +15,30 @@
             </div>
 
             <div id="content">
+                
                 <div id="radisson">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></br>
-                        <a href="payment.html">Book Now</a>
+                    <div>
+                        <form action="payment.html" method="GET">
+                            <label for ="info">Adults:</label>
+                            <input type="number" min="1" name="info" placeholder="1"></br>
+
+                            <label for="name">Name:</label>
+                            <input type="text" name="info" required></br>
+                            
+                            <label for="date">From Date:</label>
+                            <input type="date" name="info" required></br>
+                            <label for="date">To Date:</label>
+                            <input type="date" name="info" required></br>
+
+                            <label for="total">Total:</label>
+                            <input readonly name="info"></br>
+
+                            <input type="submit" value="Book Now">
+    
+                        </form>
+    
+                    </div>
                         <p><h2>Radisson Blu Hotel</h2></p>
                         <p>5 star</p>
                         AMENITIES
