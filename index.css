@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#images {
+    padding: 5px;
+    display: table;
+    
+}
+
+header img{
+    height: 60px;
+    width: 60px;
+}
+
+span {
+    
+    margin-left: 5px;
+}
+
+#links {
+
+    display: table;
+}
+

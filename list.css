@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+content img {
+    height: 200px;
+    width: 250px
+}
+
+header img{
+    height: 60px;
+    width: 60px;
+}
+
+#map img {
+
+    height: 500px;
+    width: 1000px;
+
+}
+
+footer img {
+    height: 20px;
+    width: 22px;
+}
