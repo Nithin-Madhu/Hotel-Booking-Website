@@ -1,0 +1,57 @@
+*{
+    margin: 0;               /* fill the contents to the full webpage*/
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rosybrown;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+section{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+#radisson{
+    margin: 2%;
+    margin-left: 25%;
+    align-content: center;
+}
+
+section p {
+    margin: 2%;
+}
+
+#box{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+}
+body footer{
+    background-color: rosybrown;
+}
+
+footer img {
+    height: 20px;
+    width: 22px;
+}
+

@@ -1,0 +1,40 @@
+*{
+    margin: 0;               /* fill the contents to the full webpage*/
+    padding: 0;
+}
+
+header{
+    background-color: rosybrown;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+section{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+form{
+    margin-bottom: 1%;
+}
+
+li{
+    margin-left: 6%;
+}
+
+#lorem{
+    margin: 1%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+body footer{
+    background-color: rosybrown;
+}
