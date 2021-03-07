@@ -9,6 +9,12 @@ body section {
     
     
 }
+
+html{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
 body{
   background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
   height: 380px;
@@ -21,6 +27,7 @@ header{
     background-color: rosybrown;
     height: 100%;
     background-size: cover;
+    padding: 5px;
     
 }
 
@@ -33,6 +40,8 @@ section img{
 
 body footer{
     background-color: rosybrown;
+    padding: 10px;
+    
 }
 
 
@@ -45,4 +54,41 @@ header img{
 *{
     margin: 0;               /* fill the contents to the full webpage*/
     padding: 0;
+}
+
+#login{
+    text-align: right;
+    margin-right: 1%;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+#copy{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.links{
+    text-align: right;
+    
+}
+
+#search-bar{
+    height: 50%;
+    width: 100%;
+    size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    border: solid transparent;
+    font-size: 16px;
+
+}
+
+span{
+    display: inline-table;
+    margin-right: 30px;
 }

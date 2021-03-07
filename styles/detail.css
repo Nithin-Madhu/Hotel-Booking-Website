@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
 header{
     background-color: rosybrown;
     height: 100%;
@@ -37,4 +42,23 @@ body{
 
 body footer{
     background-color: rosybrown;
+}
+
+#login{
+    text-align: right;
+    margin-right: 1%;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+#copy{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.links{
+    text-align: right;
+    
 }

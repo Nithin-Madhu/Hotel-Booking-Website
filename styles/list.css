@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
 body{
     height: 100%;
     margin: 0;
@@ -50,8 +55,29 @@ header img{
 
 }
 
-footer img {
-    height: 20px;
-    width: 22px;
+#login{
+    text-align: right;
+    margin-right: 1%;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
 }
 
+#copy{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.links{
+    text-align: right;
+    
+}
+
+
+
+li{
+    display: inline-flex;
+    text-align: center;
+    margin-right: 20px;
+}
