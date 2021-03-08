@@ -14,8 +14,13 @@ body{
     padding: 0;
     background-color: #e0e0e0;
 }
+
 body footer{
     background-color: rosybrown;
+    position: sticky;
+    bottom: 0vh;
+    left: 0vh;
+    
 }
 
 
@@ -55,12 +60,13 @@ header img{
 
 }
 
+
 #login{
     text-align: right;
     margin-right: 1%;
-    vertical-align: middle;
-    text-decoration: none;
-    color: black;
+    position: relative;
+    bottom: 40px;
+
 }
 
 #copy{
@@ -74,10 +80,20 @@ header img{
     
 }
 
-
-
 li{
     display: inline-flex;
     text-align: center;
     margin-right: 20px;
+}
+
+
+#viewMore{
+    position: relative;
+    left: 640px;
+    top: 10px;
+}
+
+#contact{
+    position: relative;
+    top: 15px;
 }

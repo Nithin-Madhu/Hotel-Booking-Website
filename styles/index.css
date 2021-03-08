@@ -1,13 +1,11 @@
+*{
+    margin: 0;               /* fill the contents to the full webpage*/
+    padding: 0;
+}
 
 body section {
     background-color: #e0e0e0;
-    padding: 5%;
-    margin-top: 35%;
-    margin-left: 15%;
-    margin-right: 15%;
-    display: table
-    
-    
+
 }
 
 html{
@@ -25,7 +23,7 @@ body{
 
 header{
     background-color: rosybrown;
-    height: 100%;
+    top: 0;
     background-size: cover;
     padding: 5px;
     
@@ -33,7 +31,9 @@ header{
 
 section img{
     border-radius: 25%;
-    position: center;
+    display: block;
+    margin-left: 8em;
+    margin-top: 2em;
 }
 
 
@@ -41,6 +41,9 @@ section img{
 body footer{
     background-color: rosybrown;
     padding: 10px;
+    position: sticky;
+    bottom: 0vh;
+    left: 0vh;
     
 }
 
@@ -51,17 +54,12 @@ header img{
 }
 
 
-*{
-    margin: 0;               /* fill the contents to the full webpage*/
-    padding: 0;
-}
-
 #login{
     text-align: right;
     margin-right: 1%;
-    vertical-align: middle;
-    text-decoration: none;
-    color: black;
+    position: relative;
+    bottom: 40px;
+
 }
 
 #copy{
@@ -75,20 +73,43 @@ header img{
     
 }
 
-#search-bar{
-    height: 50%;
-    width: 100%;
-    size: 100px;
-    display: flex;
+input{
     justify-content: center;
-    align-items: center;
-    line-height: 2;
-    border: solid transparent;
-    font-size: 16px;
+    position: relative;
+    top: 100px;
+    left: 650px;
+    height: 50px;
+    width: 200px;
+    border-radius: 7%;
 
 }
 
 span{
     display: inline-table;
     margin-right: 30px;
+}
+
+.content{
+    display:block;
+    margin: 0;
+    padding: 0;
+    margin-top: 25%;
+    height: 15em;
+  
+}    
+
+header,footer{
+    height: 50px;
+    display: cover;
+}
+
+#viewMore{
+    position: relative;
+    left: 640px;
+    top: 10px;
+}
+
+#contact{
+    position: relative;
+    top: 15px;
 }

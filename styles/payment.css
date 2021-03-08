@@ -51,8 +51,13 @@ section p {
     border-radius: 5px;
     padding: 2%;
 }
+
 body footer{
     background-color: rosybrown;
+    position: sticky;
+    bottom: 0vh;
+    left: 0vh;
+    
 }
 
 footer img {
@@ -77,4 +82,23 @@ footer img {
 .links{
     text-align: right;
     
+}
+
+#viewMore{
+    position: relative;
+    left: 640px;
+    top: 10px;
+}
+
+#contact{
+    position: relative;
+    top: 15px;
+}
+
+#login{
+    text-align: right;
+    margin-right: 1%;
+    position: relative;
+    bottom: 40px;
+
 }
